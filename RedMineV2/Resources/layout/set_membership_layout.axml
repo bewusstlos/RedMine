@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:background="@color/colorBackgroundCard">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user"
+                android:spinnerMode="dialog"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/role"
+                android:spinnerMode="dialog" />
+            <Button
+                android:text="ADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.Material.Orange" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">#607d8b</item>
+    <item name="colorControlNormal">#fff57c00</item>
+    <item name="colorControlActivated">#ffffa726</item>
+    <item name="colorButtonNormal">#ffc107</item>
+    <item name="colorPrimaryDark">#455a64</item>
+    <item name="colorAccent">#ffc107</item>
+  </style>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">RedMine</string>
+<string name="LoadingAllRequiredData">Loading all required data</string>
+<string name="PleaseWait">Please wait...</string>
+  <string name="Login">Login</string>
+  <string name="ClosedIssues">Closed Issues</string>
+  <string name="Password">Password</string>
+  <string name="RememberMe">Remember me</string>
+  <string name="Register">Don`t have an account? Sign up for free>></string>
+  <string name="SignIn">Sign In</string>
+  <string name="TimeEntries">Time Entries</string>
+  <string name="Participants">Participants</string>
+  <string name="Performer">Performer:</string>
+  <string name="Registration">Registration</string>
+  <string name="NewProject">New Project</string>
+  <string name="ChangeProperties">Change properties</string>
+  <string name="LogTime">Log Time</string>
+  <string name="MyIssues">My Issues</string>
+  <string name="Other">Other</string>
+  <string name="NewNote">New note</string>
+  <string name="Settings">Settings</string>
+  <string name="LogOut">Log Out</string>
+  <string name="Exit">Exit</string>
+  <string name="Administration">Administration</string>
+  <string name="PasswordRequire">Must be at least 4 charecters long</string>
+  <string name="SpentTime">Spent time</string>
+  <string name="Expand">Expand</string>
+  <string name="Collapse">Collapse</string>
+  <string name="Hours">Hours</string>
+  <string name="Activity">Activity</string>
+  <string name="Roles">Roles</string>
+  <string name="Comment">Comment:</string>
+  <string name="Notes">Notes</string>
+  <string name="Project">Project</string>
+  <string name="Projects">Projects</string>
+  <string name="SetChange">Set/Change</string>
+  <string name="Issues">Issues</string>
+  <string name="Delete">Delete</string>
+  <string name="New">New</string>
+  <string name="Expand">Expand</string>
+  <string name="Collapse">Collapse</string>
+  <string name="Progress">Progress</string>
+  <string name="Save">Save</string>
+  <string name="Ok">OK</string>
+  <string name="Cancel">Cancel</string>
+  <string name="ProjectDeleteConfirmation">Are you really want to delete this project?</string>
+  <string name="IssueDeleteConfirmation">Are you really want to delete this issue?</string>
+  <string name="PermissionError">You dont have permissions to do this</string>
+  <string name="EditIssue">Edit Issue</string>
+  <string name="ChangeStartDate">Change start date</string>
+  <string name="ChangeDueDate">Change due date</string>
+  <string name="Tracker">Tracker:</string>
+  <string name="Status">Status:</string>
+  <string name="Priority">Priority:</string>
+  <string name="Author">Author:</string>
+  <string name="AssignedTo">Assigned to:</string>
+  <string name="Category">Category:</string>
+  <string name="Subject">Subject:</string>
+  <string name="Description">Description:</string>
+  <string name="StartDate">Start Date:</string>
+  <string name="EstimatedHours">Estimated hours:</string>
+  <string name="CreatedOn">Created on:</string>
+  <string name="UpdatedOn">Updated on:</string>
+  <string name="DueDate">Due date:</string>
+  <string name="tracker_prompt">Choose a tracker</string>
+  <string name="assigned_to_prompt">Choose performer</string>
+  <string-array name="trackers_array">
+    <item>Bug</item>
+    <item>Feature</item>
+    <item>Support</item>
+    <item>Design</item>
+    <item>Documentation</item>
+    <item>Development</item>
+  </string-array>
+  <string name="priority_prompt">Choose priority</string>
+  <string-array name="priorities_array">
+    <item>Low</item>
+    <item>Normal</item>
+    <item>High</item>
+    <item>Urgent</item>
+    <item>Immediate</item>
+  </string-array>
+  <string name="status_prompt">Choose status</string>
+  <string-array name="status_array">
+    <item>In Progress</item>
+    <item>Resolved</item>
+    <item>Feedback</item>
+    <item>Closed</item>
+    <item>Rejected</item>
+  </string-array>
+  <string name="activity_prompt">Choose activity</string>
+  <string-array name="activity_array">
+    <item>Design</item>
+    <item>Development</item>
+  </string-array>
+  <string name="FilterByUser">Filter by User</string>
+  <string name="FilterByMonth">Filter by Month</string>
+  <string name="FilterByProject">Filter by Project</string>
+  <string name="FilterByStatus">Filter by Status</string>
+  <string name="FilterByIssue">Filter by Issue</string>
+  <string name="Apply">Apply</string>
+</resources>

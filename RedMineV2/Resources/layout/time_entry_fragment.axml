@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/root">
+    <TextView
+        android:text="Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spent_on"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#000000"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackgroundCard"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:text="8.3 h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours"
+            android:textColor="@color/colorAccent"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:textSize="30dp" />
+        <TextView
+            android:text="@string/Comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/hours"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/comment_label" />
+        <TextView
+            android:text="Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/comment_label"
+            android:id="@+id/comment"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:text="@string/Performer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_label"
+            android:id="@+id/performer_label"
+            android:layout_toRightOf="@id/hours"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/performer_label"
+            android:id="@+id/performer"
+            android:layout_below="@id/comment"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+</LinearLayout>

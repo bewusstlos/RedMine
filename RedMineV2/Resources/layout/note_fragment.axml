@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingBottom="3dp"
+              android:background="#efefef"
+    android:layout_height="match_parent">
+  <LinearLayout
+    android:background="@color/colorBackgroundCard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/text_field"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/note_label"
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_mode_edit_black_18dp" />
+    <ImageView
+        android:id="@+id/done"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:src="@drawable/ic_done_black_18dp" />
+  </LinearLayout>
+</LinearLayout>
